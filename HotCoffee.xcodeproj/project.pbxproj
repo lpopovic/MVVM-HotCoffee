@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		D002DA7C22A6AB23002F2F9F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D002DA7B22A6AB23002F2F9F /* AppDelegate.swift */; };
-		D002DA7E22A6AB23002F2F9F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D002DA7D22A6AB23002F2F9F /* ViewController.swift */; };
 		D002DA8122A6AB23002F2F9F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D002DA7F22A6AB23002F2F9F /* Main.storyboard */; };
 		D002DA8322A6AB25002F2F9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D002DA8222A6AB25002F2F9F /* Assets.xcassets */; };
 		D002DA8622A6AB25002F2F9F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D002DA8422A6AB25002F2F9F /* LaunchScreen.storyboard */; };
+		D002DA8F22A71B69002F2F9F /* OrdersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D002DA8E22A71B69002F2F9F /* OrdersTableViewController.swift */; };
+		D002DA9122A71BC1002F2F9F /* AddOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D002DA9022A71BC1002F2F9F /* AddOrderViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D002DA7822A6AB23002F2F9F /* HotCoffee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HotCoffee.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D002DA7B22A6AB23002F2F9F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D002DA7D22A6AB23002F2F9F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D002DA8022A6AB23002F2F9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D002DA8222A6AB25002F2F9F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D002DA8522A6AB25002F2F9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D002DA8722A6AB25002F2F9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D002DA8E22A71B69002F2F9F /* OrdersTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersTableViewController.swift; sourceTree = "<group>"; };
+		D002DA9022A71BC1002F2F9F /* AddOrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddOrderViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +56,23 @@
 		D002DA7A22A6AB23002F2F9F /* HotCoffee */ = {
 			isa = PBXGroup;
 			children = (
+				D002DA8D22A71A0F002F2F9F /* Controllers */,
 				D002DA7B22A6AB23002F2F9F /* AppDelegate.swift */,
-				D002DA7D22A6AB23002F2F9F /* ViewController.swift */,
 				D002DA7F22A6AB23002F2F9F /* Main.storyboard */,
 				D002DA8222A6AB25002F2F9F /* Assets.xcassets */,
 				D002DA8422A6AB25002F2F9F /* LaunchScreen.storyboard */,
 				D002DA8722A6AB25002F2F9F /* Info.plist */,
 			);
 			path = HotCoffee;
+			sourceTree = "<group>";
+		};
+		D002DA8D22A71A0F002F2F9F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D002DA8E22A71B69002F2F9F /* OrdersTableViewController.swift */,
+				D002DA9022A71BC1002F2F9F /* AddOrderViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,8 +146,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D002DA7E22A6AB23002F2F9F /* ViewController.swift in Sources */,
+				D002DA8F22A71B69002F2F9F /* OrdersTableViewController.swift in Sources */,
 				D002DA7C22A6AB23002F2F9F /* AppDelegate.swift in Sources */,
+				D002DA9122A71BC1002F2F9F /* AddOrderViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
