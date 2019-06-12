@@ -38,6 +38,7 @@ class AddOrderViewController: UIViewController {
         tableView.delegate = self
         
         self.coffeSizesSegmentedControl = UISegmentedControl(items: vm.sizes)
+        self.coffeSizesSegmentedControl.selectedSegmentIndex = 0
         self.coffeSizesSegmentedControl.translatesAutoresizingMaskIntoConstraints = false
         
         self.view.addSubview(self.coffeSizesSegmentedControl)
